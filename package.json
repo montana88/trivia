@@ -1,0 +1,34 @@
+{
+  "name": "volfied",
+  "version": "1.0.0",
+  "description": "game Volfied",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/montana88/homedash-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/montana88/homedash-2/issues"
+  },
+  "homepage": "https://gitlab.com/montana88/homedash-2#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "laravel-mix": "^5.0.5"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "jasmine": "^3.6.4",
+    "sass": "^1.26.10",
+    "sass-loader": "^8.0.2",
+    "targets-webpack-plugin": "^3.0.0"
+  }
+}
