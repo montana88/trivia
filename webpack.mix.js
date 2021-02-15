@@ -1,8 +1,4 @@
 const mix = require('laravel-mix')
-const ImageminPlugin = require('imagemin-webpack-plugin').default
-const CopyWebpackPlugin = require('copy-webpack-plugin')
-const imageminMozjpeg = require('imagemin-mozjpeg')
-const TargetsPlugin = require('targets-webpack-plugin')
 
 mix.setPublicPath('dist')
 

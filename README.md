@@ -1,12 +1,12 @@
-Test with node.js
+Init project
 =====================
 
-Install the jasmine-node plugin from https://github.com/mhevery/jasmine-node
+Install packages
 
-	npm install jasmine-node -g
-
+	npm install
+	
 And execute:
 
-	jasmine-node .
+	npm run production
 
-Any test source matching the pattern *.spec.js will be executed.
+for compiling src.
